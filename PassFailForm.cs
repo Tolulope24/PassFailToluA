@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace PassFailToluA
 {
-    public partial class Form1 : Form
+    public partial class frmPassFail : Form
     {
-        public Form1()
+        string filepath = "DATA10.txt";
+        string outputFile 
+        public frmPassFail()
         {
             InitializeComponent();
+        }
+
+        private void frmPassFail_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
