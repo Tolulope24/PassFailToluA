@@ -39,6 +39,7 @@
             this.btnParseFile.TabIndex = 0;
             this.btnParseFile.Text = "File";
             this.btnParseFile.UseVisualStyleBackColor = true;
+            this.btnParseFile.Click += new System.EventHandler(this.btnParseFile_Click);
             // 
             // frmPassFail
             // 
