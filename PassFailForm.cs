@@ -60,8 +60,17 @@ namespace PassFailToluA
                     // for testing purposes only write the weights to output file
                     file.WriteLine("weights " + weightTest + " " + weightAssign + " " + weightProjects + " " + weightQuizzes);
                     // get number of students from the array
-                     numStudents = 
+                    numStudents = line[1];
+                    // output file
+                    file.WriteLine(numStudents);
                 }
+                // loop through each statement 
+                for (counterB = counterA + 2; counterB < counterA + 2 + numStudents; counterB++)
+                {
+                    // split students marks into an array of strings
+
+                }
+               
 
             }
         }
